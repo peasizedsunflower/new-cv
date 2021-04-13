@@ -47,6 +47,9 @@ body {
 .content a {
   color: #fca311;
 }
+.content p {
+  margin: 0px;
+}
 
 /* FADE IN */
 
