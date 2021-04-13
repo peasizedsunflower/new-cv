@@ -1,0 +1,151 @@
+body {
+  font-family: "Benne", serif;
+  background-color: #000000;
+  color: #e5e5e5;
+}
+.content {
+  box-shadow: -1px 0px 12px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 12px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 12px 1px rgba(0, 0, 0, 0.75);
+  margin: 50px 200px;
+  background-color: #14213d;
+  padding: 50px 30px;
+}
+.content .id-color {
+  color: #fca311;
+}
+.content .text-center {
+  text-align: center;
+}
+.content hr {
+  border-bottom: #14213d;
+}
+.content h1 {
+  font-weight: lighter;
+  font-size: 45px;
+  color: #fca311;
+  margin-bottom: 0px !important;
+}
+.content img {
+  width: 50%;
+}
+.content .float {
+  float: left;
+}
+.content h3 {
+  font-weight: lighter;
+  color: #fca311;
+}
+.content h4 {
+  color: #fca311;
+}
+.content .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+.content a {
+  color: #fca311;
+}
+
+/* FADE IN */
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.instaFade {
+  -webkit-animation-name: reset, fade-in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in;
+
+  -moz-animation-name: reset, fade-in;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: ease-in;
+
+  animation-name: reset, fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+
+/*=========================================================
+	RESPONSIVE
+===========================================================*/
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+/* -------------------------------------------------- 
+	design for IPAD PRO
+	/* ================================================== */
+@media (min-width: 980px) and (max-width: 1199px) {
+  .content {
+    margin: 50px 50px;
+    padding: 50px 30px;
+  }
+}
+
+/* -------------------------------------------------- 
+	design for IPAD
+	/* ================================================== */
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .content {
+    margin: 50px 30px;
+    padding: 50px 30px;
+  }
+}
+@media only screen and (max-width: 992px) {
+}
+
+/* -------------------------------------------------- 
+	custom for 320px & 480px 
+	/* -------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  .content {
+    margin: 50px 0px;
+    padding: 50px 10px;
+  }
+  .content h1 {
+    font-size: 25px;
+  }
+  .content p {
+    font-size: 13px;
+  }
+  .content h3 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .content .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+/* -------------------------------------------------- 
+	design for 480px
+	/* -------------------------------------------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* -------------------------------------------------- 
+	design for 320px (IPHONE)
+	/* -------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+}
