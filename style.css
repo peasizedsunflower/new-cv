@@ -80,14 +80,6 @@ body {
 	RESPONSIVE
 ===========================================================*/
 
-@media only screen and (max-width: 991px) {
-}
-
-@media only screen and (max-width: 767px) {
-}
-
-@media only screen and (max-width: 480px) {
-}
 /* -------------------------------------------------- 
 	design for IPAD PRO
 	/* ================================================== */
@@ -107,8 +99,6 @@ body {
     margin: 50px 30px;
     padding: 50px 30px;
   }
-}
-@media only screen and (max-width: 992px) {
 }
 
 /* -------------------------------------------------- 
@@ -134,18 +124,4 @@ body {
     display: grid;
     grid-template-columns: auto;
   }
-}
-
-/* -------------------------------------------------- 
-	design for 480px
-	/* -------------------------------------------------- */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-}
-
-/* -------------------------------------------------- 
-	design for 320px (IPHONE)
-	/* -------------------------------------------------- */
-
-@media only screen and (max-width: 480px) {
 }
